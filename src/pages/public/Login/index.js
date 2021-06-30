@@ -34,7 +34,7 @@ const Login = (props) => {
           history.push("/dashboard");
         }
       }
-      else{
+      else{ 
         setMsg("There is no such a user.. Please try different one.")
       }
     }).catch(function (error) {
