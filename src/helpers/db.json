@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "mail": "test1@test.com",
+      "name": "Test1",
+      "surname": "Test",
+      "password": "Test1",
+      "roles": [
+        "AccessDashboard",
+        "AccessProducts",
+        "AccessUsers"
+      ]
+    },
+    {
+      "id": 2,
+      "mail": "test2@test.com",
+      "name": "Test2",
+      "surname": "Test",
+      "password": "Test2",
+      "roles": [
+        "AccessDashboard",
+        "AccessProducts"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone X",
+      "price": "1000",
+      "description": "bla bla bla",
+      "store": "Apple İletişim"
+    },
+    {
+      "id": 2,
+      "name": "Galaxy X",
+      "price": "1200",
+      "description": "bla bla bla",
+      "store": "Galaxy İletişim"
+    }
+  ]
+}
